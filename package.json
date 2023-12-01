@@ -1,0 +1,9 @@
+{
+  "name": "skillwap-api",
+  "version": "0.0.0",
+  "description": "SkillSwap is a TypeScript-powered web application using Express.js, designed for community members to exchange skills and services seamlessly. With features like Firebase Authentication, MariaDB integration, and a robust testing suite with Mocha, ESLint, and Prettier, SkillSwap provides a collaborative platform for skill-sharing within a community.",
+  "main": "index.js",
+  "repository": "https://github.com/ProjectSkillSwap/skillwap-api.git",
+  "author": "Angel S. Moreno <angelxmoreno@gmail.com>",
+  "license": "MIT"
+}

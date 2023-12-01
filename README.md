@@ -51,8 +51,8 @@ our [Contribution Guidelines](Contribution-Guidelines.md).
 
 ## Need Help?
 
-If you have general questions or want to connect with our community, join us on our [Discord server](link-to-discord).
-For technical bugs or issues related to the code, please create an [issue](link-to-issues) in this repository.
+If you have general questions or want to connect with our community, join us on our [Discord server](https://discord.gg/5KKuj9gd).
+For technical bugs or issues related to the code, please create an [issue](https://github.com/ProjectSkillSwap/skillwap-api/issues) in this repository.
 
 Happy coding!
 

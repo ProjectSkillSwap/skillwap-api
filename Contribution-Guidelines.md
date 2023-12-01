@@ -5,14 +5,14 @@ to review the following guidelines to ensure a smooth and collaborative contribu
 
 ## Table of Contents
 
-1. [Code of Conduct](#code-of-conduct)
-2. [How to Contribute](#how-to-contribute)
-3. [Reporting Bugs](#reporting-bugs)
-4. [Feature Requests](#feature-requests)
-5. [Pull Requests](#pull-requests)
-6. [Coding Standards](#coding-standards)
-7. [Commit Message Guidelines](#commit-message-guidelines)
-8. [License](#license)
+* [Code of Conduct](#code-of-conduct)
+* [How to Contribute](#how-to-contribute)
+* [Reporting Bugs](#reporting-bugs)
+* [Feature Requests](#feature-requests)
+* [Pull Requests](#pull-requests)
+* [Coding Standards](#coding-standards)
+* [Commit Message Guidelines](#commit-message-guidelines)
+* [License](#license)
 
 ## Code of Conduct
 

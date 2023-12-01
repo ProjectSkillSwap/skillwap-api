@@ -13,31 +13,31 @@ community.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) installed
-- [Yarn](https://yarnpkg.com/) installed
-- [Docker](https://docs.docker.com/get-docker/) installed and running
+* [Node.js](https://nodejs.org/) installed
+* [Yarn](https://yarnpkg.com/) installed
+* [Docker](https://docs.docker.com/get-docker/) installed and running
 
 ### Tech Stack
 
-- [TypeScript](https://www.typescriptlang.org/): A superset of JavaScript that adds static typing, enhancing code
+* [TypeScript](https://www.typescriptlang.org/): A superset of JavaScript that adds static typing, enhancing code
   maintainability and developer productivity.
-- [Express.js](https://expressjs.com/): A fast, unopinionated, minimalist web framework for Node.js, ideal for building
+* [Express.js](https://expressjs.com/): A fast, unopinionated, minimalist web framework for Node.js, ideal for building
   robust and scalable APIs.
-- [TypeORM](https://typeorm.io/): An Object-Relational Mapping (ORM) library that simplifies database interactions,
+* [TypeORM](https://typeorm.io/): An Object-Relational Mapping (ORM) library that simplifies database interactions,
   allowing developers to work with databases using TypeScript or JavaScript.
-- [MariaDB](https://mariadb.org/): A powerful open-source relational database management system, a fork of MySQL, known
+* [MariaDB](https://mariadb.org/): A powerful open-source relational database management system, a fork of MySQL, known
   for its performance, reliability, and ease of use.
-- [Redis](https://redis.io/): An in-memory data structure store, commonly used as a cache or message broker, known for
+* [Redis](https://redis.io/): An in-memory data structure store, commonly used as a cache or message broker, known for
   its speed and flexibility.
-- [Mocha](https://mochajs.org/): A feature-rich JavaScript test framework running on Node.js and in the browser, making
+* [Mocha](https://mochajs.org/): A feature-rich JavaScript test framework running on Node.js and in the browser, making
   asynchronous testing simple and fun.
-- [ESLint](https://eslint.org/): A pluggable linting utility for JavaScript and TypeScript, ensuring code consistency
+* [ESLint](https://eslint.org/): A pluggable linting utility for JavaScript and TypeScript, ensuring code consistency
   and identifying potential issues.
-- [Prettier](https://prettier.io/): An opinionated code formatter that enforces a consistent coding style, promoting
+* [Prettier](https://prettier.io/): An opinionated code formatter that enforces a consistent coding style, promoting
   code readability and maintainability.
-- [routing-controllers](https://github.com/typestack/routing-controllers): A library that simplifies the creation of API
+* [routing-controllers](https://github.com/typestack/routing-controllers): A library that simplifies the creation of API
   controllers in Express by using decorators, making it easier to define routes and handle requests.
-- [Firebase Auth](https://firebase.google.com/docs/auth): Firebase Authentication service for secure user
+* [Firebase Auth](https://firebase.google.com/docs/auth): Firebase Authentication service for secure user
   authentication, providing easy integration for user identity and access management.
 
 ## API Documentation

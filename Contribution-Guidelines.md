@@ -24,22 +24,22 @@ If you're new to contributing, here's a quick guide to help you get started:
 
 1. Fork the repository to your GitHub account.
 2. Clone the forked repository to your local machine.
-   ***bash
+   \*\*\*bash
    git clone <https://github.com/ProjectSkillSwap/skillwap-api.git>
    cd skillwap-api
    ***
 3. Create a new branch for your contribution.
-   ***bash
+   \*\*\*bash
    git checkout -b feature/your-feature-name
    ***
 4. Make your changes, ensuring you follow the [coding standards](#coding-standards).
 5. Test your changes thoroughly.
 6. Commit your changes with [clear and concise commit messages](#commit-message-guidelines).
-   ***bash
+   \*\*\*bash
    git commit -m "Add your concise commit message here"
    ***
 7. Push your changes to your forked repository.
-   ***bash
+   \*\*\*bash
    git push origin feature/your-feature-name
    ***
 8. Create a pull request (PR) to the main repository, explaining your changes and the problem they solve.
@@ -58,9 +58,9 @@ and describe your feature request. We welcome your input!
 
 We encourage contributions via pull requests. Ensure your pull request includes:
 
-- A clear and concise description of the changes.
-- Any necessary documentation updates.
-- Passing tests (if applicable).
+* A clear and concise description of the changes.
+* Any necessary documentation updates.
+* Passing tests (if applicable).
 
 ## Coding Standards
 

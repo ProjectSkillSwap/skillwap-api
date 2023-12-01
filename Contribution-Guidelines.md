@@ -1,6 +1,7 @@
 # Contribution Guidelines
 
-Welcome to SkillSwap! We appreciate your interest in contributing to our project. Before you start, please take a moment to review the following guidelines to ensure a smooth and collaborative contribution process.
+Welcome to SkillSwap! We appreciate your interest in contributing to our project. Before you start, please take a moment
+to review the following guidelines to ensure a smooth and collaborative contribution process.
 
 ## Table of Contents
 
@@ -24,7 +25,7 @@ If you're new to contributing, here's a quick guide to help you get started:
 1. Fork the repository to your GitHub account.
 2. Clone the forked repository to your local machine.
    ***bash
-   git clone https://github.com/ProjectSkillSwap/skillwap-api.git
+   git clone <https://github.com/ProjectSkillSwap/skillwap-api.git>
    cd skillwap-api
    ***
 3. Create a new branch for your contribution.
@@ -45,11 +46,13 @@ If you're new to contributing, here's a quick guide to help you get started:
 
 ## Reporting Bugs
 
-If you encounter any bugs or issues, please [create an issue](https://github.com/ProjectSkillSwap/skillwap-api/issues) in this repository. Provide detailed information about the problem and steps to reproduce it.
+If you encounter any bugs or issues, please [create an issue](https://github.com/ProjectSkillSwap/skillwap-api/issues)
+in this repository. Provide detailed information about the problem and steps to reproduce it.
 
 ## Feature Requests
 
-Have an idea for a new feature? Feel free to [create an issue](https://github.com/ProjectSkillSwap/skillwap-api/issues) and describe your feature request. We welcome your input!
+Have an idea for a new feature? Feel free to [create an issue](https://github.com/ProjectSkillSwap/skillwap-api/issues)
+and describe your feature request. We welcome your input!
 
 ## Pull Requests
 
@@ -61,11 +64,13 @@ We encourage contributions via pull requests. Ensure your pull request includes:
 
 ## Coding Standards
 
-Follow the established coding standards to maintain consistency throughout the codebase. Refer to our [coding standards document](Coding-Standards.md) for more details.
+Follow the established coding standards to maintain consistency throughout the codebase. Refer to
+our [coding standards document](Coding-Standards.md) for more details.
 
 ## Commit Message Guidelines
 
-When making commits, please follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary).
+When making commits, please follow
+the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary).
 
 ## License
 

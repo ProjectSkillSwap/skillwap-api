@@ -1,6 +1,7 @@
 # Coding Standards
 
-These coding standards outline the conventions and best practices to be followed when contributing to the SkillSwap project. Consistent coding standards help maintain code readability and collaboration across the development team.
+These coding standards outline the conventions and best practices to be followed when contributing to the SkillSwap
+project. Consistent coding standards help maintain code readability and collaboration across the development team.
 
 ## Language and Framework
 
@@ -8,8 +9,10 @@ These coding standards outline the conventions and best practices to be followed
 
 ## Code Formatting
 
-- We use ESLint with Prettier, following the [eslint-config-universe](https://www.npmjs.com/package/eslint-config-universe) configuration for code formatting.
-- Please refer to the [eslint-config-universe documentation](https://www.npmjs.com/package/eslint-config-universe) for detailed configuration settings.
+- We use ESLint with Prettier, following
+  the [eslint-config-universe](https://www.npmjs.com/package/eslint-config-universe) configuration for code formatting.
+- Please refer to the [eslint-config-universe documentation](https://www.npmjs.com/package/eslint-config-universe) for
+  detailed configuration settings.
 
 ## Variable Naming
 
@@ -21,7 +24,8 @@ These coding standards outline the conventions and best practices to be followed
 
 ## Comments and Documentation
 
-- Code should be written in a way that does not require comments. We prioritize simplicity and readability over complex code that requires explanation.
+- Code should be written in a way that does not require comments. We prioritize simplicity and readability over complex
+  code that requires explanation.
 
 ## File Organization
 
@@ -38,7 +42,8 @@ These coding standards outline the conventions and best practices to be followed
 
 ## Version Control
 
-- We follow the Conventional Commits specification for version control. Please refer to [Conventional Commits](https://www.conventionalcommits.org/) for guidelines on commit messages.
+- We follow the Conventional Commits specification for version control. Please refer
+  to [Conventional Commits](https://www.conventionalcommits.org/) for guidelines on commit messages.
 
 ## Concurrency and Asynchronous Code
 
@@ -46,6 +51,8 @@ These coding standards outline the conventions and best practices to be followed
 
 ## Any Other Specific Requirements
 
-- There are no additional specific requirements or guidelines for security practices, performance optimization, continuous integration, or external libraries and dependencies.
+- There are no additional specific requirements or guidelines for security practices, performance optimization,
+  continuous integration, or external libraries and dependencies.
 
-These coding standards aim to create a consistent and maintainable codebase. Contributors are encouraged to follow these guidelines to ensure a seamless collaborative development process.
+These coding standards aim to create a consistent and maintainable codebase. Contributors are encouraged to follow these
+guidelines to ensure a seamless collaborative development process.

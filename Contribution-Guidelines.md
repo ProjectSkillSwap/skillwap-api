@@ -5,14 +5,14 @@ to review the following guidelines to ensure a smooth and collaborative contribu
 
 ## Table of Contents
 
-* [Code of Conduct](#code-of-conduct)
-* [How to Contribute](#how-to-contribute)
-* [Reporting Bugs](#reporting-bugs)
-* [Feature Requests](#feature-requests)
-* [Pull Requests](#pull-requests)
-* [Coding Standards](#coding-standards)
-* [Commit Message Guidelines](#commit-message-guidelines)
-* [License](#license)
+-   [Code of Conduct](#code-of-conduct)
+-   [How to Contribute](#how-to-contribute)
+-   [Reporting Bugs](#reporting-bugs)
+-   [Feature Requests](#feature-requests)
+-   [Pull Requests](#pull-requests)
+-   [Coding Standards](#coding-standards)
+-   [Commit Message Guidelines](#commit-message-guidelines)
+-   [License](#license)
 
 ## Code of Conduct
 
@@ -24,25 +24,25 @@ If you're new to contributing, here's a quick guide to help you get started:
 
 1. Fork the repository to your GitHub account.
 2. Clone the forked repository to your local machine.
-   ```bash
-   git clone git@github.com:ProjectSkillSwap/skillwap-api.git
-   cd skillwap-api
-   yarn install
-   ```
+    ```bash
+    git clone git@github.com:ProjectSkillSwap/skillwap-api.git
+    cd skillwap-api
+    yarn install
+    ```
 3. Create a new branch for your contribution.
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
 4. Make your changes, ensuring you follow the [coding standards](#coding-standards).
 5. Test your changes thoroughly.
 6. Commit your changes with [clear and concise commit messages](#commit-message-guidelines).
-   ```bash
-   git commit -m "feat: Add your concise commit message here"
-   ```
+    ```bash
+    git commit -m "feat: Add your concise commit message here"
+    ```
 7. Push your changes to your forked repository.
-   ```bash
-   git push origin feature/your-feature-name
-   ```
+    ```bash
+    git push origin feature/your-feature-name
+    ```
 8. Create a pull request (PR) to the main repository, explaining your changes and the problem they solve.
 
 ## Reporting Bugs
@@ -59,9 +59,9 @@ and describe your feature request. We welcome your input!
 
 We encourage contributions via pull requests. Ensure your pull request includes:
 
-* A clear and concise description of the changes.
-* Any necessary documentation updates.
-* Passing tests (if applicable).
+-   A clear and concise description of the changes.
+-   Any necessary documentation updates.
+-   Passing tests (if applicable).
 
 ## Coding Standards
 

@@ -1,9 +1,82 @@
 {
-  "name": "skillwap-api",
-  "version": "0.0.0",
-  "description": "SkillSwap is a TypeScript-powered web application using Express.js, designed for community members to exchange skills and services seamlessly. With features like Firebase Authentication, MariaDB integration, and a robust testing suite with Mocha, ESLint, and Prettier, SkillSwap provides a collaborative platform for skill-sharing within a community.",
-  "main": "index.js",
-  "repository": "https://github.com/ProjectSkillSwap/skillwap-api.git",
-  "author": "Angel S. Moreno <angelxmoreno@gmail.com>",
-  "license": "MIT"
+    "name": "skillwap-api",
+    "version": "0.0.0",
+    "description": "SkillSwap is a TypeScript-powered web application using Express.js, designed for community members to exchange skills and services seamlessly. With features like Firebase Authentication, MariaDB integration, and a robust testing suite with Mocha, ESLint, and Prettier, SkillSwap provides a collaborative platform for skill-sharing within a community.",
+    "main": "index.js",
+    "repository": "https://github.com/ProjectSkillSwap/skillwap-api.git",
+    "author": "Angel S. Moreno <angelxmoreno@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint . --cache",
+        "lint:fix": "eslint . --cache --fix",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3",
+        "eslint": "^8.54.0",
+        "eslint-config-universe": "^12.0.0",
+        "eslint-plugin-md": "^1.0.19",
+        "husky": "^8.0.0",
+        "lint-staged": "^15.1.0",
+        "prettier": "^3.1.0",
+        "typescript": "^5.3.2"
+    },
+    "eslintConfig": {
+        "root": true,
+        "extends": [
+            "universe/node",
+            "plugin:md/recommended"
+        ],
+        "rules": {
+            "md/remark": [
+                "error",
+                {
+                    "plugins": [
+                        [
+                            "lint-maximum-line-length",
+                            false
+                        ]
+                    ]
+                }
+            ]
+        },
+        "overrides": [
+            {
+                "files": [
+                    "*.md"
+                ],
+                "parser": "markdown-eslint-parser",
+                "rules": {
+                    "prettier/prettier": [
+                        "error",
+                        {
+                            "parser": "markdown"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "prettier": {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "avoid",
+        "semi": true,
+        "useTabs": false,
+        "tabWidth": 4,
+        "printWidth": 120
+    },
+    "lint-staged": {
+        "*.{ts}": "eslint --fix",
+        "*.{json,md}": "prettier --write"
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
+    }
 }

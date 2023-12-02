@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "include": ["src/**/*"],
+        "exclude": ["node_modules", "tests"],
+        "lib": ["ESNext"],
+        "module": "esnext",
+        "target": "esnext",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@app/*": ["src/*"]
+        }
+    }
+}
